@@ -1,34 +1,58 @@
-body{
+body {
     background-color: #f5d9df;
-    font-family: 'Nunito', sans-serif;
+    font-family     : 'Nunito', sans-serif;
 }
-
-#mainNavBar .navbar-brand{
-color:#EA1C2C;
-
+/*Implementing background color when user scroll for the navbar*/
+.navbar.scrolled{
+background-color: rgb(222,192,222);
+transition: background-color 500ms;
 }
-
-#mainNavBar .nav-link{
-    color:white;
-    }
-    
-#mainNavBar .nav-link:hover{
-    color:#EA1C2C;
-    }
-#mainNavBar {
-    font-size: 1.5rem;
+.content{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.containerMilk h2 {
+    color      : #EA1C2C;
     font-weight: 100;
-    }
-#headingGroup span{
-    color:#EA1C2C;
+    font-size  : 2.5rem;
 }
 
-#headingGroup h2{
-font-weight: 100;
-font-size: 3rem;}
+.containerMilk p {
+    color      : #f49ab8;
+    font-weight: 100;
+    font-size  : 1.25rem;
+    line-height: 2;
+}
 
-@media (max-width:1200px){
-    #headingGroup h2{
+#mainNavBar .navbar-brand {
+    color: #EA1C2C;
+}
+
+#mainNavBar .nav-link {
+    color: white;
+}
+
+#mainNavBar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavBar {
+    font-size  : 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size  : 3rem;
+}
+
+@media (max-width:1200px) {
+    #headingGroup h1 {
         font-weight: 100;
-        font-size: 2rem;}
+        font-size  : 2rem;
+    }
 }
